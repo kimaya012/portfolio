@@ -1,0 +1,11 @@
+<svg width="60" height="60" xmlns="http://www.w3.org/2000/svg">
+  <rect width="60" height="60" fill="#1f70c1"/>
+  <text x="30" y="20" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">IBM</text>
+  <rect x="10" y="25" width="40" height="25" rx="3" fill="white"/>
+  <rect x="15" y="30" width="8" height="3" fill="#1f70c1"/>
+  <rect x="15" y="35" width="12" height="2" fill="#1f70c1"/>
+  <rect x="15" y="39" width="6" height="2" fill="#1f70c1"/>
+  <rect x="32" y="30" width="8" height="3" fill="#1f70c1"/>
+  <rect x="32" y="35" width="12" height="2" fill="#1f70c1"/>
+  <rect x="32" y="39" width="10" height="2" fill="#1f70c1"/>
+</svg>

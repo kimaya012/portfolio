@@ -20,8 +20,8 @@
 
   --bg-gradient-onyx: linear-gradient(
     to bottom right, 
-    hsl(240, 1%, 25%) 3%, 
-    hsl(0, 0%, 19%) 97%
+    hsl(240, 1%, 28%) 3%, 
+    hsl(0, 0%, 22%) 97%
   );
   --bg-gradient-jet: linear-gradient(
     to bottom right, 
@@ -88,11 +88,11 @@
    * shadow
    */
 
-  --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.25);
-  --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.25);
-  --shadow-3: 0 16px 40px hsla(0, 0%, 0%, 0.25);
-  --shadow-4: 0 25px 50px hsla(0, 0%, 0%, 0.15);
-  --shadow-5: 0 24px 80px hsla(0, 0%, 0%, 0.25);
+  --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.15);
+  --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.15);
+  --shadow-3: 0 16px 40px hsla(0, 0%, 0%, 0.15);
+  --shadow-4: 0 25px 50px hsla(0, 0%, 0%, 0.1);
+  --shadow-5: 0 24px 80px hsla(0, 0%, 0%, 0.15);
 
   /**
    * transition
@@ -291,12 +291,12 @@ main {
 
 .sidebar {
   margin-bottom: 15px;
-  max-height: 112px;
+  max-height: 120px;
   overflow: hidden;
   transition: var(--transition-2);
 }
 
-.sidebar.active { max-height: 405px; }
+.sidebar.active { max-height: 420px; }
 
 .sidebar-info {
   position: relative;
@@ -308,7 +308,8 @@ main {
 
 .avatar-box {
   background: var(--bg-gradient-onyx);
-  border-radius: 20px;
+  border-radius: 30px;
+  padding: 5px;
 }
 
 .info-content .name {
