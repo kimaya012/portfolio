@@ -226,6 +226,8 @@ article.active {
 .article-title {
   position: relative;
   padding-bottom: 7px;
+  margin-bottom: 0;
+  line-height: 1.2;
 }
 
 .article-title::after {
@@ -389,6 +391,9 @@ main {
 .contact-info {
   max-width: calc(100% - 46px);
   width: calc(100% - 46px);
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
 }
 
 .contact-title {
@@ -401,6 +406,9 @@ main {
 .contact-info :is(.contact-link, address) {
   color: var(--white-2);
   font-size: var(--fs-7);
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
 }
 
 .contact-info address { font-style: normal; }
